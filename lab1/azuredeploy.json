@@ -7,10 +7,10 @@
         {
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2018-07-01",
-            "name": "StorageAccount1",
+            "name": "loganStorageAcc",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "StorageAccount1"
+                "displayName": "loganStorageAcc"
             },
             "sku": {
                 "name": "Standard_LRS"
